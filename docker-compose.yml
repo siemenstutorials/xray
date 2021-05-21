@@ -1,0 +1,9 @@
+version: '3'
+services: 
+  xrayr: 
+    image: crackair/xrayr:latest
+    volumes:
+      - ./config.yml:/etc/XrayR/config.yml 
+      - ./dns.json:/etc/XrayR/dns.json 
+    restart: always
+    network_mode: host
