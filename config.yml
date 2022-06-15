@@ -9,7 +9,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://app.unbounded.tk"
       ApiKey: "byhi7h3t6h56417px3x0haw681yjaxpb"
-      NodeID: 41
+      NodeID: 1
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request, Default is 5 sec
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
